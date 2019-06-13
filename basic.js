@@ -1,0 +1,26 @@
+console.log("hello poop");
+var sum = 10 + 10;
+console.log(sum);
+var difference = 34 - 20;
+console.log(difference);
+var product = 10 * 8;
+console.log(product);
+var quotient = 10 / 5;
+console.log(quotient);
+var myVar = 45;
+myVar++;
+console.log(myVar);
+var subVar = 70;
+subVar--;
+console.log(subVar);
+var decimals = 0.5 * 2.3;
+console.log(decimals);
+var numFun = 5.43;
+var numNum = 6.7888;
+var b = numFun * numNum;
+console.log(b);
+var c = 56;
+c = 3 + c;
+c += 3;
+// reads top to bottom so at first its 56 then 59 then 62
+console.log(c);
