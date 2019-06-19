@@ -82,3 +82,11 @@ console.log(findFirstLetterOfFirstName);
 var lastName = "Allan";
 var lastLetterOfLastName = lastName[lastName.length - 1];
 console.log(lastLetterOfLastName);
+var secondToLastLetter = lastName[lastName.length - 2];
+console.log(secondToLastLetter);
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    var result = "";
+    result += "The great " + myNoun + " is so hot when he " + myVerb + " " + myAdverb;
+    return result;
+}
+console.log(wordBlanks("wyatt", "hot", "eats", "smoothly"));
